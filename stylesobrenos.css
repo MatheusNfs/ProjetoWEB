@@ -1,0 +1,25 @@
+h1{
+    padding-left: 50px;
+}
+.caixacinza{
+    margin: 10px 90px 10px 90px;
+  
+
+}
+.texto{
+    display: inline-block;
+    margin-top: 100px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(189, 189, 189);
+    width: 60%;
+    vertical-align: top;
+
+}
+.divbas{
+    padding: 20px;
+    margin: 10px 50px 10px 50px;
+}
+img{
+    margin: 10px 60px 10px 60px;
+    border: 10px solid black;
+}
