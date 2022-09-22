@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+body{
+    margin: auto;
+    width: 960px;
+    background-color: rgb(48, 48, 48);
+}
+h1{
+    margin: 40px 20px;
+    font-size: 40px;
+    color: white;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+}
+header{
+    width: 960px;
+    height: 150px;
+    background-color: blueviolet;
+    margin: auto;
+}
+#menu{
+    margin-top: 60px;
+    width: 600px;
+    height: 20px;
+    line-height: 20px;
+    float: right;
+    display: inline;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+#banner{
+    width: 960px;
+    height: 300px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid greenyellow;
+}
+#banner img{
+    width: 960px;
+    height: 300px;
+    
+}
+.orbit-bullets{
+    display: none;
+}
+main{
+    background-color: gray;
+    float: left;
+}
+.produto{
+    width: 40%;
+    margin: 20px 4%;
+    height: 340px;
+    background-color: blueviolet;
+    float:left;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px black;
+}
+.produto img{
+    height: 256px;
+    width: 256px;
+    margin: 10px 62px;
+    float: left;
+    border: 3px solid rgb(119, 199, 0);
+    border-radius: 5px;
+}
+.produto h2{
+    font-size: 18px;
+    color: white;
+    
+}
+.produto h3{
+    font-size: 20px;
+    color: greenyellow;
+    font-style: bold;
+}
+footer{
+    color: white;
+    height: 20px;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(193, 126, 231);
+    float: left;
+}
