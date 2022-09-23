@@ -56,16 +56,28 @@ main{
     background-color: gray;
     float: left;
 }
+.produtos{
+    display: flex;
+    justify-content: space-evenly;
+}
 .produto{
     width: 40%;
-    margin: 20px 4%;
     height: 340px;
+    margin: 5%;
     background-color: blueviolet;
-    float:left;
     text-align: center;
     border: 2px solid black;
     border-radius: 8px;
     box-shadow: 3px 3px 15px black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.produto a{
+    text-decoration: none;
+}
+.produto:active{
+    box-shadow: none;
 }
 .produto img{
     height: 256px;
